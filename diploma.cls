@@ -5,7 +5,7 @@
 \ProvidesClass{diploma}
 
 % Calls extarticle class and pass all customArticle class options
-\LoadClassWithOptions{extreport}
+\LoadClassWithOptions{report}
 
 % Set fonts (XeLaTeX required)
 	% Allows to load fonts
@@ -179,11 +179,40 @@
 	\newcommand{\msu}{Московский государственный университет имени М.\,В.~Ломоносова}
 	
 % Strange lab config
-%	\renewcommand{\headrulewidth}{0pt} 
-%	\lhead{}\chead{}\rhead{} 
-%	\lfoot{}\cfoot{\thepage}\rfoot{} 
-%	\RequirePackage{sectsty} 
-	\RequirePackage[nottoc,notlof,notlot]{tocbibind} 
+	\RequirePackage{floatflt}
+	\RequirePackage{wrapfig}
+	\RequirePackage{multicol}
+	\RequirePackage{amssymb,amsfonts,amsmath,amsthm,mathtext,cite,enumerate,float}
+	\RequirePackage{graphicx}
+	\RequirePackage{booktabs}
+	\RequirePackage{amsbsy}
+	\RequirePackage{array}
+	\RequirePackage{paralist}
+	\RequirePackage{verbatim}
+	\RequirePackage{subfig}
+	\RequirePackage{color}
+	\RequirePackage{colortbl}
+	\sloppy
+	\RequirePackage[onehalfspacing]{setspace}
+	\RequirePackage{cmap}
+	\RequirePackage{indentfirst}
+	\RequirePackage[labelsep=period]{caption}
+	\RequirePackage{fancyhdr}
+	\RequirePackage{mathtools}
+	\pagestyle{fancy}
+	\renewcommand{\headrulewidth}{0pt}
+	\lhead{}\chead{}\rhead{} 
+	\lfoot{}\cfoot{\thepage}\rfoot{} 
+	\RequirePackage{sectsty}
+	\RequirePackage[nottoc,notlof,notlot]{tocbibind}
+	\RequirePackage{floatflt}
 	
 	\hyphenpenalty=10000% что-то про отмену переносов 
-%	\RequirePackage[titles,subfigure]{tocloft} 
+	\RequirePackage[titles,subfigure]{tocloft} 
+	
+	
+	\RequirePackage{titlesec}
+	\titleformat{\chapter}{\normalfont\Huge}{\thechapter}{1em}{}
+	\sectionfont{\normalfont\fontfamily{phv}\fontsize{16}{19}\bfseries}
+	\subsectionfont{\normalfont\fontfamily{phv}\fontsize{14}{17}\bfseries}
+	\subsubsectionfont{\normalfont\fontfamily{phv}\fontsize{14}{17}\selectfont}
