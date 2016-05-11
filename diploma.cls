@@ -44,6 +44,7 @@
 	% Support for Russian language
 	\RequirePackage{polyglossia}
 	\setdefaultlanguage[spelling=modern]{russian}
+	
 
 	% Sorry, non-Russian speakers :-)
 	\setotherlanguage{english}
@@ -213,6 +214,7 @@
 	
 	\RequirePackage{titlesec}
 	\titleformat{\chapter}{\normalfont\Huge}{\thechapter}{1em}{}
-	\sectionfont{\normalfont\fontfamily{phv}\fontsize{16}{19}\bfseries}
-	\subsectionfont{\normalfont\fontfamily{phv}\fontsize{14}{17}\bfseries}
-	\subsubsectionfont{\normalfont\fontfamily{phv}\fontsize{14}{17}\selectfont}
+	\titleformat{\section}{\normalfont\LARGE}{\thesection}{0.5em}{}
+%	\sectionfont{\normalfont\fontsize{16}{19}\bfseries}
+%	\subsectionfont{\normalfont\fontfamily{phv}\fontsize{14}{17}\bfseries}
+%	\subsubsectionfont{\normalfont\fontfamily{phv}\fontsize{14}{17}\selectfont}
