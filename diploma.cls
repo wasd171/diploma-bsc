@@ -105,7 +105,7 @@
 	% Custom tables handling
 	\RequirePackage{booktabs}
 
-	% Set longtable enviroment, which allows display break in tables
+	% Set longtable environment, which allows display break in tables
 	\RequirePackage{longtable}
 
 	% Set a new column type, which implements vertical centering and breaks
@@ -215,6 +215,7 @@
 	\RequirePackage{titlesec}
 	\titleformat{\chapter}{\normalfont\Huge}{\thechapter}{1em}{}
 	\titleformat{\section}{\normalfont\LARGE}{\thesection}{0.5em}{}
+	\titlespacing*{\chapter}{0pt}{0pt}{40pt}
 %	\sectionfont{\normalfont\fontsize{16}{19}\bfseries}
 %	\subsectionfont{\normalfont\fontfamily{phv}\fontsize{14}{17}\bfseries}
 %	\subsubsectionfont{\normalfont\fontfamily{phv}\fontsize{14}{17}\selectfont}
