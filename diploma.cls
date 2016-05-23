@@ -183,12 +183,12 @@
 	\RequirePackage{floatflt}
 	\RequirePackage{wrapfig}
 	\RequirePackage{multicol}
-	\RequirePackage{amssymb,amsfonts,amsmath,amsthm,mathtext,cite,enumerate,float}
+	\RequirePackage{amssymb,amsfonts,amsmath,amsthm,mathtext,cite,float}
 	\RequirePackage{graphicx}
 	\RequirePackage{booktabs}
 	\RequirePackage{amsbsy}
 	\RequirePackage{array}
-	\RequirePackage{paralist}
+%	\RequirePackage{paralist}
 	\RequirePackage{verbatim}
 	\RequirePackage{subfig}
 	\RequirePackage{color}
