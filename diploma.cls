@@ -133,6 +133,9 @@
 
 	% Mod­i­fies the mar­gins and ro­tates the page con­tents but not the page num­ber. 
 	\RequirePackage{lscape}
+	
+	% Multifigures
+	\RequirePackage{subcaption}
 
 % Chemistry packages
 	\RequirePackage{chemfig}
@@ -190,7 +193,7 @@
 	\RequirePackage{array}
 %	\RequirePackage{paralist}
 	\RequirePackage{verbatim}
-	\RequirePackage{subfig}
+%	\RequirePackage{subfig}
 	\RequirePackage{color}
 	\RequirePackage{colortbl}
 	\sloppy
