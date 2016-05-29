@@ -10,6 +10,7 @@
 \usepackage{bibentry}
 \nobibliography*
 
+\setbeamercolor{background canvas}{bg=white}
 %\setbeamerfont{bibliography item}{size=\tiny}
 %\setbeamerfont{bibliography entry author}{size=\tiny}
 %\setbeamerfont{bibliography entry title}{size=\tiny}
@@ -29,7 +30,11 @@
   	\maketitle
   
   	\include{slides/metamaterials}
+  	\include{slides/mie}
+%  	\include{slides/switches}
   
-  	\bibliographystyle{presentation}
-	\bibliography{literature-abbrv}
+  	\begin{frame}
+  		\bibliographystyle{presentation}
+		\bibliography{literature-abbrv}
+  	\end{frame}
 \end{document}
