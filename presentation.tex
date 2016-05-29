@@ -1,19 +1,35 @@
-\documentclass[12pt, pdf, hyperref={unicode}]{beamer}
+\documentclass[10pt, pdf, hyperref={unicode}]{beamer}
 \usetheme{metropolis} 
 
 \usepackage{polyglossia}
 \setdefaultlanguage[spelling=modern]{russian}
 
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty, font=scriptsize}
+
+\usepackage{bibentry}
+\nobibliography*
+
+%\setbeamerfont{bibliography item}{size=\tiny}
+%\setbeamerfont{bibliography entry author}{size=\tiny}
+%\setbeamerfont{bibliography entry title}{size=\tiny}
+%\setbeamerfont{bibliography entry location}{size=\tiny}
+%\setbeamerfont{bibliography entry note}{size=\tiny}
 
 \title{Оптический отклик Ми-резонансных наночастиц, связанных с диэлектрическими волноводами}
-\date{\today}
+\date{}
 \author{Нестеров~К.\,Е.}
-%\institute{Centre for Modern Beamer Themes}
+\institute{
+	МОСКОВСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ имени М.В.ЛОМОНОСОВА \\
+	ФИЗИЧЕСКИЙ ФАКУЛЬТЕТ МГУ \\
+	Кафедра квантовой электроники
+}
 
 \begin{document}
-  \maketitle
+  	\maketitle
   
-  \begin{frame}{First Frame}
-    Hello, world!
-  \end{frame}
+  	\include{slides/metamaterials}
+  
+  	\bibliographystyle{presentation}
+	\bibliography{literature-abbrv}
 \end{document}
